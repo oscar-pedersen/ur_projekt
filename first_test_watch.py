@@ -9,8 +9,8 @@ i2c = I2C(scl=Pin(5), sda=Pin(4))
 oled = ssd1306.SSD1306_I2C(128, 64, i2c)
 
 # WiFi
-ssid = "FTTH_TW2213"
-password = "styftibKooc7"
+ssid = ""
+password = ""
 
 wifi = network.WLAN(network.STA_IF)
 wifi.active(True)
